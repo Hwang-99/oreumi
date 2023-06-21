@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="./login_result.html" method="get">
+      <fieldset style="width: 120px; height: auto">
+        <div class="login__body">
+          <h1>로그인</h1>
+          <div class="login__id">
+            <label for="username">사용자 이름:</label>
+            <input
+              type="text"
+              name="username"
+              autocomplete="on"
+              placeholder="ID"
+              required
+            />
+          </div>
+          <div class="login__pw">
+            <label for="password">비밀번호:</label>
+            <input type="password" name="password" placeholder="PW" required />
+          </div>
+          <div class="login__btn">
+            <button type="submit">로그인</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
