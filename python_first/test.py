@@ -1,0 +1,7 @@
+input_text = input("")
+first, second = input_text.split(" ")
+print(int(first) + int(second))
+print(int(first) - int(second))
+print(int(first) * int(second))
+print(int(first) // int(second))
+print(int(first) % int(second))
