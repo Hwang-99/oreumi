@@ -1,0 +1,10 @@
+{
+  "folders": [],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "oreumi_service",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
+  }
+}
